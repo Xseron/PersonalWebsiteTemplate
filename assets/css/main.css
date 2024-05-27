@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animate__animated {
+    -webkit-animation-delay: var(--wow-delay);
+    animation-delay: var(--wow-delay);
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.cloud {
+    background: #fff;
+    background: -moz-linear-gradient(top, #fff 5%, #f1f1f1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #fff), color-stop(100%, #f1f1f1));
+    background: -webkit-linear-gradient(top, #fff 5%, #f1f1f1 100%);
+    background: -webkit-linear-gradient(to bottom, #fff 5%, #f1f1f1 100%);
+    background: -moz-linear-gradient(to bottom, #fff 5%, #f1f1f1 100%);
+    background: -o-linear-gradient(to bottom, #fff 5%, #f1f1f1 100%);
+    background: -ms-linear-gradient(to bottom, #fff 5%, #f1f1f1 100%);
+    background: linear-gradient(to bottom, #fff 5%, #f1f1f1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#f1f1f1', GradientType=0);
+
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+
+    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+
+    height: 120px;
+    position: relative;
+    width: 350px;
+}
+
+.cloud_gray {
+    filter: brightness(90%);
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .cloud_gray {
+        display: flex;
+    }
+}
+
+.cloud:after,
+.cloud:before {
+    background: #fff;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+.cloud:after {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+
+    height: 100px;
+    left: 50px;
+    top: -50px;
+    width: 100px;
+}
+
+.cloud:before {
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+
+    width: 180px;
+    height: 180px;
+    right: 50px;
+    top: -90px;
+}
+
+.line-outside {
+    /* position: relative; */
+    display: inline-block;
+}
+
+@media (min-width: 640px) {
+    .line-outside::before {
+        background-color: #fff;
+        content: " ";
+        top: 50%;
+        right: 0;
+        height: 2px;
+        width: 80px;
+        margin: 10px 10px;
+        display: inline-block;
+    }
+    .line-outside::after {
+        background-color: #fff;
+        content: " ";
+        top: 50%;
+        left: -100px;
+        height: 2px;
+        width: 80px;
+        margin: 10px 10px;
+        display: inline-block;
+    }
+}
+.footer {
+    position: relative;
+    /* background: #05b3a4; */
+    /* min-height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wave {
+    position: absolute;
+    /* top: -100px; */
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("assets/icons/wave.png");
+    background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
