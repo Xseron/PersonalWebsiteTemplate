@@ -33,7 +33,7 @@ export default defineNuxtConfig({
       transpile: ['@fortawesome/vue-fontawesome']
     },
 
-    modules: ["@nuxt/image", "vue3-carousel-nuxt"],
+    modules: ["vue3-carousel-nuxt"],
 
     fontawesome: {
         component: "FontAwesomeIcon", 

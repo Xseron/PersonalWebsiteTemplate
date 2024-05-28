@@ -16,7 +16,7 @@
                      I founded a unique local programming community called <b class="text-yellow-600">MPD</b>. We have worked together to improve 
                      the local ecosystem and create a more user-friendly learning environment at school using digital 
                      technologies. Our work has been embodied in projects such as the websites and the mobile application.
-                    <NuxtImg class="p-5" src="images/school.webp" alt="fizmat school where i studied"/>
+                    <img class="p-5" src="assets/images/school.webp" alt="fizmat school where i studied"/>
                 </div>
                 <hr />
             </li>
@@ -31,7 +31,7 @@
                     <time class="font-mono italic">2022</time>
                     <div class="text-lg font-black">Freelance</div>
                     My freelance practice includes the development of websites, data parsers and telegram bots, where I actively used a variety of technologies to achieve the goals set by the employer.
-                    <NuxtImg class="p-5" alt="A freelance work" src="images/work.webp"/>
+                    <img class="p-5" alt="A freelance work" src="assets/images/work.webp"/>
                 </div>
                 <hr/>
             </li>
@@ -46,7 +46,7 @@
                     <time class="font-mono italic">2024</time>
                     <div class="text-lg font-black">Develop my own courses</div>
                     My teaching vocation includes creating my own educational courses, providing mentoring support and conducting individual classes. I founded my own school, Lotuschool, where I am a source of inspiration for many students. My pride is the numerous graduates who, thanks to my training, successfully implement their own startups or find high-paying jobs.
-                    <NuxtImg class="p-5" alt="My onlyne courses" src="images/online-course.webp"/>
+                    <img class="p-5" alt="My onlyne courses" src="assets/images/online-course.webp"/>
                 </div>
             </li>
         </ul>
