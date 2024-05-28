@@ -5,7 +5,7 @@ on:
     branches:
       - main
 jobs:
-  cache-and-install:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
