@@ -1,0 +1,1 @@
+import{_ as e,x as o,v as t}from"./EGK3CTab.js";const c={},n={class:"text-3xl font-bold underline"};function r(s,l){return t(),o("h1",n,"Hello world!")}const a=e(c,[["render",r]]);export{a as default};
