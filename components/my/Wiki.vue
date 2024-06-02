@@ -1,5 +1,5 @@
 <template>
-    <section id="wiki" class="flex flex-col justify-center items-center p-10 relative">
+    <section wow id="wiki" class="flex flex-col justify-center items-center p-10 relative">
         <div class="text-center" :delay="100">
             <h1 class="text-4xl font-bold line-outside">My Wiki</h1>
             <h2 class="text-lg pt-6">I create content on how people can flourish and help others flourish 🌱</h2>

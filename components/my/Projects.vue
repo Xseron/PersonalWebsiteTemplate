@@ -80,9 +80,9 @@ const breakpoints = {
 
 <template>
     <section class="py-20">
-        <h1 class="text-center text-5xl font-bold py-5" :delay="100">My Projects</h1>
+        <h1 wow class="text-center text-5xl font-bold py-5" :delay="100">My Projects</h1>
         <Carousel v-bind="settings" :wrapAround="true" :autoplay="3000" :breakpoints="breakpoints">
-            <Slide v-for="(project, index) in projects" :key="index">
+            <Slide wow v-for="(project, index) in projects" :key="index">
                 <div class="card w-96 bg-base-100 shadow-xl rounded border-primary border-0 hover:border-2 h-80">
                     <div class="card-body">
                         <h2 class="card-title font-bold">{{ project.name }}</h2>

@@ -62,7 +62,7 @@ const skills = [
 
 <template>
     <section id="skillset" class="bg-gray-950 lg:grid lg:grid-cols-3 lg:grid-rows-2 sm:gap-20 sm:p-20 py-10 px-5 gap-5 text-slate-300 relative">
-        <div class="lg:row-span-2 lg:col-span-1" v-motion-slide-visible-left :delay="100">
+        <div wow class="lg:row-span-2 lg:col-span-1">
             <h2 class="text-3xl font-bold pb-5">Skillset</h2>
             <p class="text-sm leading-normal font-medium pb-5">
                 I try to avoid limiting myself to a single technology, so I'm always able to choose the right tools for a specific task. In addition, the multiplicity and diversity of IT branches that I'm interested in allow me to play different roles in the team, as well as understand and cooperate
@@ -74,12 +74,12 @@ const skills = [
                 <progress v-f class="progress progress-success bg-gray-500 w-72" :value="lang.progress" max="100"></progress>
             </div>
         </div>
-        <article v-for="skill in skills" class="py-12 lg:py-0" v-motion-slide-visible-right :delay="100">
+        <article wow v-for="skill in skills" class="py-12 lg:py-0">
             <font-awesome-icon :icon="['fas', skill.fa]" class="text-4xl text-emerald-500 pb-2" />
             <h2 class="text-xl font-bold pb-3">{{ skill.caption }}</h2>
             <p class="text-sm leading-normal font-medium pb-3">{{ skill.content }}</p>
         </article>
 
-        <a id="offer-btn" href="#contact" class="btn btn-success absolute right-10 bottom-10 text-2xl -rotate-6 bg-emerald-500 text-gray-900 font-bold rounded-lg hover:scale-110">Hire Me 😉</a>
+        <a wow id="offer-btn" href="#contact" class="btn btn-success absolute right-10 bottom-10 text-2xl -rotate-6 bg-emerald-500 text-gray-900 font-bold rounded-lg hover:scale-110">Contanc Me 😉</a>
     </section>
 </template>

@@ -8,7 +8,7 @@
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
                     </svg>
                 </div>
-                <div class="timeline-start md:text-end mb-10 text-base font-mediumdata-src">
+                <div wow wow-animation="animate__animated animate__fadeInLeft" class="timeline-start md:text-end mb-10 text-base font-mediumdata-src">
                     <time class="font-mono italic font-normal">2019</time>
                     <div class="text-lg font-black">School</div>
                     Studying at one of the leading schools in Kazakhstan were an inspiring experience, 
@@ -16,7 +16,7 @@
                      I founded a unique local programming community called <b class="text-yellow-600">MPD</b>. We have worked together to improve 
                      the local ecosystem and create a more user-friendly learning environment at school using digital 
                      technologies. Our work has been embodied in projects such as the websites and the mobile application.
-                    <img class="p-5" src="assets/images/school.webp" alt="fizmat school where i studied"/>
+                    <img class="p-5" src="/images/school.webp" alt="fizmat school where i studied"/>
                 </div>
                 <hr />
             </li>
@@ -27,11 +27,11 @@
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
                     </svg>
                 </div>
-                <div class="timeline-end mb-10">
+                <div wow wow-animation="animate__animated animate__fadeInRight" class="timeline-end mb-10">
                     <time class="font-mono italic">2022</time>
                     <div class="text-lg font-black">Freelance</div>
                     My freelance practice includes the development of websites, data parsers and telegram bots, where I actively used a variety of technologies to achieve the goals set by the employer.
-                    <img class="p-5" alt="A freelance work" src="assets/images/work.webp"/>
+                    <img class="p-5" alt="A freelance work" src="/images/work.webp"/>
                 </div>
                 <hr/>
             </li>
@@ -42,24 +42,24 @@
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
                     </svg>
                 </div>
-                <div class="timeline-start md:text-end mb-10" >
+                <div wow wow-animation="animate__animated animate__fadeInLeft" class="timeline-start md:text-end mb-10" >
                     <time class="font-mono italic">2024</time>
                     <div class="text-lg font-black">Develop my own courses</div>
                     My teaching vocation includes creating my own educational courses, providing mentoring support and conducting individual classes. I founded my own school, Lotuschool, where I am a source of inspiration for many students. My pride is the numerous graduates who, thanks to my training, successfully implement their own startups or find high-paying jobs.
-                    <img class="p-5" alt="My onlyne courses" src="assets/images/online-course.webp"/>
+                    <img class="p-5" alt="My onlyne courses" src="/images/online-course.webp"/>
                 </div>
             </li>
         </ul>
-        <div class="absolute right-28" style="top: 25%">
+        <div wow wow-animation="animate__animated animate__fadeInRight" class="absolute right-28" style="top: 25vh">
             <div class="cloud cloud_gray -rotate-12"></div>
-        </div>
-        <div class="absolute left-5 "  style="top: 50%">
+        </div> 
+        <div wow wow-animation="animate__animated animate__fadeInLeft" class="absolute left-5"  style="top: 50%">
             <div class="cloud cloud_gray rotate-12"></div>
         </div>
-        <div class="absolute right-5 " style="top: 75%">
+        <div wow wow-animation="animate__animated animate__fadeInRight" class="absolute right-5 " style="top: 75%">
             <div class="cloud cloud_gray -rotate-12"></div>
         </div>
-        <div class="absolute right-28 " style="bottom: -5%">
+        <div wow wow-animation="animate__animated animate__fadeInRight" class="absolute right-28 " style="bottom: -5%">
             <div class="cloud cloud_gray rotate-12"></div>
         </div>
     </section>
