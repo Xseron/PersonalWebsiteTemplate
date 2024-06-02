@@ -15,7 +15,7 @@ const props = defineProps({
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                             </label>
                         </div>
-                        <a class="btn btn-ghost text-4xl"><img src="/images/logo.png" alt="My Logo" width="100"/></a>
+                        <a class="btn btn-ghost text-4xl"><nuxt-img src="/images/logo.png" alt="My Logo" width="100"/></a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1">
