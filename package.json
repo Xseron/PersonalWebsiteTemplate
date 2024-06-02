@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "github": "nuxt build --preset github_pages",
+    "pull": "npx gh-pages --dotfiles -d .output/public",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
