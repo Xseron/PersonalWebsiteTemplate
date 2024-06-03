@@ -1,0 +1,1 @@
+import{_ as e,x as o,v as t}from"./BrLaSJIh.js";/* empty css        */const c={},n={class:"text-3xl font-bold underline"};function r(s,l){return t(),o("h1",n,"Hello world!")}const d=e(c,[["render",r]]);export{d as default};
