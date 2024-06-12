@@ -1,8 +1,9 @@
 <template>
     <section id="about">
         <MySkillSet />
-        <MyProjects />
+        <!-- <MyProjects /> -->
+        <MyProjects2/>
         <MyTimeLine />
-        <MyWiki/>
+        <MyWiki />
     </section>
 </template>

@@ -1,8 +1,8 @@
 <template>
     <section id="hero" class="z-10 sm:pt-20">
         <div class="hero min-h-screen bg-base-500">
-            <div class="hero-content flex-col lg:flex-row lg:pb-56 lg:mx-32">
-                <nuxt-img src="/images/me.webp" alt="My main avatar" width="500" class="max-w-full min-w-sm sm:max-w-sm rounded-lg shadow-2xl mask mask-squircle"/>
+            <div class="hero-content flex-col lg:flex-row lg:mb-56">
+                <nuxt-img src="/images/me.webp" loading="eager" alt="My main avatar" width="400" height="400" class="mt-10 rounded-lg shadow-2xl mask mask-squircle"/>
                 <div class="lg:text-left text-center">
                     <h1 class="sm:text-5xl text-3xl pb-2 font-bold">I'm David Torossyan</h1>
                     <h1 class="sm:text-5xl text-3xl pb-2 font-bold">A Software Enginer</h1>

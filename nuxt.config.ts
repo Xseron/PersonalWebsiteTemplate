@@ -1,12 +1,7 @@
 export default defineNuxtConfig({
+    ssr: false,
     devtools: { enabled: true },
-    css: ["~/assets/css/main.css", "@fortawesome/fontawesome-svg-core/styles.css", "animate.css/animate.min.css"],
-
-    head: {
-        title: "David Torossyan Personal Website Software Engineer",
-        meta: [{ charset: "utf-8" }, { name: "viewport", content: "width=device-width, initial-scale=1" }],
-        script: [{ type: "module", src: "/js/aos.js" }],
-    },
+    css: ["~/assets/css/main.css", "@fortawesome/fontawesome-svg-core/styles.css", "animate.css/animate.min.css", "swiper/css"],
 
     postcss: {
         plugins: {
@@ -19,7 +14,11 @@ export default defineNuxtConfig({
         transpile: ["@fortawesome/vue-fontawesome"],
     },
 
-    modules: ["vue3-carousel-nuxt", "@nuxt/image-edge"],
+    modules: ["vue3-carousel-nuxt", "@nuxt/image-edge", "nuxt-swiper"],
+
+    image: {
+        format: ["webp"],
+    },
 
     fontawesome: {
         component: "FontAwesomeIcon",
@@ -33,13 +32,26 @@ export default defineNuxtConfig({
     nitro: {
         prerender: {
             routes: [
+                "/_ipx/s_400x400/images/me.webp",
+                "/_ipx/s_800x800/images/me.webp",
+
+                "/_ipx/s_100x40/images/logo.png", 
+                "/_ipx/s_200x80/images/logo.png",
+
                 "/_ipx/w_500/images/me.webp",
-                "/_ipx/_/images/school.webp",
-                "/_ipx/_/images/work.webp",
-                "/_ipx/_/images/online-course.webp",
-                "/_ipx/_/icons/linked.webp",
-                "/_ipx/_/icons/tg.png",
-                "/_ipx/_/icons/twitter.webp"
+                "/_ipx/s_800x800/images/me.webp",
+                "/_ipx/s_500x350/images/school.webp",
+                "/_ipx/s_1000x700/images/school.webp",
+                "/_ipx/s_500x350/images/work.webp",
+                "/_ipx/s_1000x700/images/work.webp",
+                "/_ipx/s_500x350/images/online-course.webp",
+                "/_ipx/s_1000x700/images/online-course.webp",
+                "/_ipx/s_64x64/icons/linked.webp",
+                "/_ipx/s_128x128/icons/linked.webp",
+                "/_ipx/s_64x64/icons/tg.png",
+                "/_ipx/s_128x128/icons/tg.png",
+                "/_ipx/s_64x64/icons/twitter.webp",
+                "/_ipx/s_128x128/icons/twitter.webp",
             ],
         },
     },
