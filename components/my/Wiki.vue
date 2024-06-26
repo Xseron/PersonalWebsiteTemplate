@@ -7,14 +7,14 @@
         <div class="md:flex justify-center gap-10">
             <div class="card w-96 bg-base-100 shadow-xl" :delay="100">
                 <div class="card-body">
-                    <h2 class="card-title">Books review 📚</h2>
-                    <p>I publish essays on how we can "level up America" with tech, media, and movement-building.</p>
+                    <h2 class="card-title">Recommended Resources 🌐</h2>
+                    <p>I share recommendations for articles, videos, podcasts, and other resources that I find helpful and inspiring.</p>
                     <a class="btn rounded-lg">Read my Reviews</a>
                 </div>
             </div>
             <div class="card w-96 bg-base-100 shadow-xl" :delay="100">
                 <div class="card-body">
-                    <h2 class="card-title">My Diary 📝</h2>
+                    <h2 class="card-title">My Blogs 📝</h2>
                     <p>I publish how-to guides and my views on a wide variety of topics that don't fit into a particular bucket.</p>
                     <a class="btn rounded-lg">Read my Diary</a>
                 </div>

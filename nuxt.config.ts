@@ -1,8 +1,11 @@
 export default defineNuxtConfig({
     ssr: false,
     devtools: { enabled: true },
-    css: ["~/assets/css/main.css", "@fortawesome/fontawesome-svg-core/styles.css", "animate.css/animate.min.css", "swiper/css"],
+    css: ["~/assets/css/main.css", "@fortawesome/fontawesome-svg-core/styles.css", "animate.css/animate.min.css", "~/assets/css/swiper-bundle.min.css"],
 
+    plugins: [{ src: "@/plugins/vue-awesome-swiper", mode: "client" }],
+
+    
     postcss: {
         plugins: {
             tailwindcss: {},
@@ -14,7 +17,7 @@ export default defineNuxtConfig({
         transpile: ["@fortawesome/vue-fontawesome"],
     },
 
-    modules: ["vue3-carousel-nuxt", "@nuxt/image-edge", "nuxt-swiper"],
+    modules: ["@nuxt/image-edge"],
 
     image: {
         format: ["webp"],
@@ -35,7 +38,7 @@ export default defineNuxtConfig({
                 "/_ipx/s_400x400/images/me.webp",
                 "/_ipx/s_800x800/images/me.webp",
 
-                "/_ipx/s_100x40/images/logo.png", 
+                "/_ipx/s_100x40/images/logo.png",
                 "/_ipx/s_200x80/images/logo.png",
 
                 "/_ipx/w_500/images/me.webp",
